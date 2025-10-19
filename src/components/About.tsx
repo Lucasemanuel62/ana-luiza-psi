@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <section id="sobre" className="bg-neutral-50">
-            <div className="mx-auto max-w-screen-xl px-6 py-16 md:py-20 grid md:grid-cols-12 gap-8">
+            <div className="mx-auto max-w-screen-xl px-6 lg:py-20 grid md:grid-cols-12 gap-8">
                 <div className="md:col-span-7">
                     <h2 className="text-5xl font-semibold text-neutral-900">Sobre mim</h2>
                     <p className="mt-4 text-neutral-700 leading-7">

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Hero() {
     return (
-        <section id="inicio" className="bg-[#F7F4E9] md:h-[90vh]">
+        <section id="inicio" className="bg-[#F7F4E9] lg:h-[90vh]">
             <div className="mx-auto max-w-screen-xl px-6 py-12 md:py-6">
                 {/* Layout Mobile: Foto ao lado do nome */}
                 <div className="md:hidden flex items-center gap-2 mb-6">
@@ -41,9 +41,7 @@ export default function Hero() {
                         </p>
                         <div className="mt-8 flex flex-col sm:flex-row gap-3">
                             <a
-                                href="https://wa.me/558195943765?text=Olá%20Ana%20Luiza!%20Vi%20sua%20página%20e%20gostaria%20de%20marcar%20uma%20consulta.%20Podemos%20conversar?"
-                                target="_blank"
-                                rel="noopener noreferrer"
+                                href="#contato"
                                 className="inline-flex items-center justify-center rounded-md bg-teal-600 px-5 py-3 text-white font-medium hover:bg-teal-700 transition-colors"
                             >
                                 Agendar consulta
@@ -80,9 +78,7 @@ export default function Hero() {
                     </p>
                     <div className="flex flex-col gap-3">
                         <a
-                            href="https://wa.me/558195943765?text=Olá%20Ana%20Luiza!%20Vi%20sua%20página%20e%20gostaria%20de%20marcar%20uma%20consulta.%20Podemos%20conversar?"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="#contato"
                             className="inline-flex items-center justify-center rounded-md bg-teal-600 px-5 py-3 text-white font-medium hover:bg-teal-700 transition-colors"
                         >
                             Agendar consulta
