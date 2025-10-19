@@ -11,7 +11,7 @@ export default function Approach() {
     return (
         <section id="abordagem" className="bg-neutral-50">
             <div className="mx-auto max-w-screen-xl px-6 py-16 md:py-20">
-                <h2 className="text-2xl font-semibold text-neutral-900">Como trabalho</h2>
+                <h2 className="text-4xl font-semibold text-neutral-900">Como trabalho</h2>
                 <div className="mt-6 grid md:grid-cols-3 gap-5">
                     <ApproachItem title="Escuta acolhedora" desc="Um espaço seguro para ser você, com respeito e empatia." />
                     <ApproachItem title="Baseado em evidências" desc="Práticas da Psicologia científica, como TCC e abordagens integrativas." />

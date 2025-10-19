@@ -95,7 +95,7 @@ export default function Hero() {
 
             {/* Transição em onda */}
             <div className="relative">
-                <svg className="w-full h-16 text-white" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <svg className="w-full h-16 text-neutral-50" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M0,60 C200,10 400,110 600,50 C800,-10 1000,90 1200,40 L1200,120 L0,120 Z" fill="currentColor"></path>
                 </svg>
             </div>

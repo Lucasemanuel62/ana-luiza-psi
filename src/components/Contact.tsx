@@ -5,7 +5,7 @@ export default function Contact() {
                 <div className="rounded-xl border border-neutral-200 bg-white p-6 md:p-8">
                     <div className="md:flex md:items-center md:justify-between gap-6">
                         <div>
-                            <h2 className="text-2xl font-semibold text-neutral-900">Agende sua consulta</h2>
+                            <h2 className="text-4xl font-semibold text-neutral-900">Agende sua consulta</h2>
                             <p className="mt-3 text-neutral-700">
                                 Entre em contato para combinarmos o melhor horário. Atendimento presencial e online.
                             </p>

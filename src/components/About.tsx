@@ -2,14 +2,14 @@ export default function About() {
     return (
         <section id="sobre" className="bg-neutral-50">
             <div className="mx-auto max-w-screen-xl px-6 lg:py-20 grid md:grid-cols-12 gap-8">
-                <div className="md:col-span-7">
-                    <h2 className="text-5xl font-semibold text-neutral-900">Sobre mim</h2>
+                <div className="md:col-span-7 lg:flex lg:flex-col lg:gap-6">
+                    <h2 className="text-4xl font-semibold text-neutral-900">Sobre mim</h2>
                     <p className="mt-4 text-neutral-700 leading-7">
                         Atendo adolescentes e adultos em demandas como ansiedade, depressão, estresse, autoestima, relacionamentos
                         e desenvolvimento pessoal. Meu trabalho é pautado na escuta empática, acolhimento e construção conjunta de
                         estratégias para uma vida com mais sentido e equilíbrio.
                     </p>
-                    <p className="mt-4 text-neutral-700 leading-7">
+                    <p className="mt-4 text-neutral-700 font-medium leading-7">
                         Atendimento online com Gestalt-terapia, oferecendo um espaço de reflexões e acolhimento.
                     </p>
 

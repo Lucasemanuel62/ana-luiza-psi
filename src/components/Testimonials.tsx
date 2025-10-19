@@ -11,7 +11,7 @@ export default function Testimonials() {
     return (
         <section id="depoimentos" className="bg-white">
             <div className="mx-auto max-w-screen-xl px-6 py-16 md:py-20">
-                <h2 className="text-2xl font-semibold text-neutral-900">Depoimentos</h2>
+                <h2 className="text-4xl font-semibold text-neutral-900">Depoimentos</h2>
                 <p className="mt-3 text-neutral-700">Inclua aqui depoimentos de clientes (com autorização).</p>
                 <div className="mt-6 grid md:grid-cols-3 gap-5">
                     <Quote text="Aprendi a me ouvir e respeitar meus limites." author="Cliente A" />
