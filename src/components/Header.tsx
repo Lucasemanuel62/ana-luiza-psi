@@ -20,7 +20,6 @@ export default function Header() {
                     <a href="#sobre" className="hover:text-slate-800 transition-colors">Sobre</a>
                     <a href="#servicos" className="hover:text-slate-800 transition-colors">Serviços</a>
                     <a href="#abordagem" className="hover:text-slate-800 transition-colors">Abordagem</a>
-                    <a href="#depoimentos" className="hover:text-slate-800 transition-colors">Depoimentos</a>
                     <a href="#contato" className="hover:text-slate-800 transition-colors">Contato</a>
                 </nav>
 
