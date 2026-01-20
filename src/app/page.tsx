@@ -2,6 +2,7 @@ import Header from "@/components/Header"
 import Hero from "@/components/Hero"
 import About from "@/components/About"
 import Services from "@/components/Services"
+import Help from "@/components/Help"
 import Approach from "@/components/Approach"
 import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
+        <Help />
         <Approach />
         <Contact />
         <Footer />
