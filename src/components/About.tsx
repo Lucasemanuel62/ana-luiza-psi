@@ -17,7 +17,7 @@ export default function About() {
                     <div className="mt-6 p-4 bg-teal-50 rounded-lg border-l-4 border-teal-500">
                         <div className="flex items-center gap-2 mb-2">
                             <span className="text-teal-600 font-medium">🔸</span>
-                            <span className="text-teal-800 font-semibold">Psicóloga - CRP 05/75904</span>
+                            <span className="text-teal-800 font-semibold">Psicóloga - CRP 00/0000</span>
                         </div>
                         <div className="flex items-center gap-2 mb-2">
                             <span className="text-teal-600 font-medium">🔸</span>
@@ -33,7 +33,7 @@ export default function About() {
                     <div className="rounded-xl border border-neutral-200 bg-white p-5">
                         <h3 className="font-medium text-neutral-900">Informações</h3>
                         <ul className="mt-3 space-y-2 text-neutral-700">
-                            <li>CRP: 05/75904</li>
+                            <li>CRP: 00/0000</li>
                             <li>Abordagem: Gestalt-terapia</li>
                             <li>Modalidade: Online</li>
                             <li>Especialidade: Acolhimento e reflexões</li>

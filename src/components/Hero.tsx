@@ -41,7 +41,7 @@ export default function Hero() {
                         </p>
                         <div className="mt-8 flex flex-col sm:flex-row gap-3">
                             <a
-                                href="https://wa.me/558195943765?text=Olá%20Ana%20Luiza!%20Vi%20sua%20página%20e%20gostaria%20de%20marcar%20uma%20consulta.%20Podemos%20conversar?"
+                                href="https://wa.me/00000000?text=Olá%20Ana%20Luiza!%20Vi%20sua%20página%20e%20gostaria%20de%20marcar%20uma%20consulta.%20Podemos%20conversar?"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center rounded-md bg-teal-600 px-5 py-3 text-white font-medium hover:bg-teal-700 transition-colors"

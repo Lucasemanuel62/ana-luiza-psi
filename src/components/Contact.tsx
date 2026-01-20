@@ -19,7 +19,7 @@ export default function Contact() {
                             </a>
                             <a
                                 className="inline-flex items-center justify-center rounded-md border border-neutral-300 px-5 py-3 text-neutral-800 font-medium hover:bg-neutral-50 transition-colors"
-                                href="https://wa.me/558195943765?text=Olá%20Ana%20Luiza!%20Vi%20sua%20página%20e%20gostaria%20de%20marcar%20uma%20consulta.%20Podemos%20conversar?"
+                                href="https://wa.me/0000000000?text=Olá%20Ana%20Luiza!%20Vi%20sua%20página%20e%20gostaria%20de%20marcar%20uma%20consulta.%20Podemos%20conversar?"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

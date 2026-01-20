@@ -26,7 +26,7 @@ export default function Header() {
 
                 {/* Botão Agendar */}
                 <a
-                    href="https://wa.me/558195943765?text=Olá%20Ana%20Luiza!%20Vi%20sua%20página%20e%20gostaria%20de%20marcar%20uma%20consulta.%20Podemos%20conversar?"
+                    href="https://wa.me/00000000000?text=Olá%20Ana%20Luiza!%20Vi%20sua%20página%20e%20gostaria%20de%20marcar%20uma%20consulta.%20Podemos%20conversar?"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center rounded-lg bg-teal-600 px-6 py-2.5 text-white text-sm font-medium hover:bg-teal-700 transition-all duration-200 shadow-sm"
