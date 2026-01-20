@@ -16,7 +16,7 @@ export default function Hero() {
                     </div>
                     <div className="relative">
                         <Image
-                            src="/images/ana-luiza-ok.png"
+                            src="/images/desing.png"
                             alt="Ana Luiza - Psicóloga"
                             width={180}
                             height={180}
@@ -58,14 +58,14 @@ export default function Hero() {
                     </div>
 
                     {/* Foto da Ana Luiza */}
-                    <div className="flex justify-center md:justify-end">
+                    <div className="flex justify-center">
                         <div className="relative">
                             <Image
-                                src="/images/ana-luiza-ok.png"
+                                src="/images/desing.png"
                                 alt="Ana Luiza - Psicóloga"
-                                width={420}
-                                height={420}
-                                className="rounded-2xl object-cover"
+                                width={320}
+                                height={320}
+                                className="rounded-xl object-cover"
                                 priority
                             />
                             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-teal-100 rounded-full opacity-20"></div>
