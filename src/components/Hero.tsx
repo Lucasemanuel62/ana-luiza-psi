@@ -16,7 +16,7 @@ export default function Hero() {
                     </div>
                     <div className="relative">
                         <Image
-                            src="/images/desing.png"
+                            src="/images/desing2.jpg"
                             alt="Ana Luiza - Psicóloga"
                             width={180}
                             height={180}
@@ -61,9 +61,9 @@ export default function Hero() {
                     <div className="flex justify-center">
                         <div className="relative">
                             <Image
-                                src="/images/desing.png"
+                                src="/images/desing2.jpg"
                                 alt="Ana Luiza - Psicóloga"
-                                width={320}
+                                width={380}
                                 height={320}
                                 className="rounded-xl object-cover"
                                 priority
