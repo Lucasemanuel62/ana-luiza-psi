@@ -28,7 +28,7 @@ export default function Hero() {
                 </div>
 
                 {/* Layout Desktop: Grid de 2 colunas */}
-                <div className="hidden md:grid md:grid-cols-2 bg-red-200 gap-12 items-center">
+                <div className="hidden md:grid md:grid-cols-2 gap-12 items-center">
                     {/* Conteúdo do Hero */}
                     <div>
                         <span className="inline-block rounded-full bg-[#F3F1EC] text-[#1F2937] px-3 py-1 text-sm font-medium border border-[#D8EAE7]">
