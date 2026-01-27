@@ -141,7 +141,7 @@ npm run lint         # Executa verificação de código
 
 ### Dados Profissionais
 - **Nome**: Ana Luiza
-- **CRP**: 00/0000
+- **CRP**: 05/75904
 - **Especialização**: Gestalt-terapia
 - **Modalidade**: Atendimento online
 - **Abordagem**: Acolhimento e reflexões

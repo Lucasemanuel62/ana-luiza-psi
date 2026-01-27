@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Reveal from "./Reveal";
 
 export default function Services() {
     const services = [
@@ -39,23 +40,27 @@ export default function Services() {
                 </p>
 
                 <div className="mt-10 grid gap-6 grid-cols-2 lg:grid-cols-4">
-                    {services.map((serv) => (
-                        <div
-                            key={serv.title}
-                            className="flex flex-col text-center items-center p-6 rounded-xl bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 border border-[#E8E6E3]"
-                        >
-                            <Image
-                                src={serv.img}
-                                alt={serv.alt}
-                                width={160}
-                                height={160}
-                                className="object-contain rounded-md"
-                                priority={false}
-                            />
-                            <h3 className="text-lg font-medium text-[#1F2937]">{serv.title}</h3>
-                            <p className="mt-2 text-sm text-[#374151] leading-relaxed">{serv.desc}</p>
-                        </div>
-                    ))}
+                    {services.map((serv, i) => {
+                        const total = services.length;
+                        const baseDelay = 0.48; // seconds between items
+                        const delay = (total - i - 1) * baseDelay; // right-to-left stagger
+                        return (
+                            <Reveal key={serv.title} className="" direction="left" delay={delay}>
+                                <div className="flex flex-col text-center items-center p-6 rounded-xl bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 border border-[#E8E6E3]">
+                                <Image
+                                    src={serv.img}
+                                    alt={serv.alt}
+                                    width={160}
+                                    height={160}
+                                    className="object-contain rounded-md"
+                                    priority={false}
+                                />
+                                <h3 className="text-lg font-medium text-[#1F2937]">{serv.title}</h3>
+                                <p className="mt-2 text-sm text-[#374151] leading-relaxed">{serv.desc}</p>
+                                </div>
+                            </Reveal>
+                        );
+                    })}
                 </div>
             </div>
         </section>
