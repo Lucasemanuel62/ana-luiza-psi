@@ -31,18 +31,18 @@ export default function Services() {
     ];
 
     return (
-        <section id="servicos" className="bg-[#F7F4E9] py-16 md:py-20">
+        <section id="servicos" className="bg-[#F3F1EC] py-16 md:py-20">
             <div className="max-w-screen-xl mx-auto px-6">
-                <h2 className="text-4xl font-semibold text-neutral-900">Serviços</h2>
-                <p className="mt-2 text-neutral-600">
+                <h2 className="text-4xl font-semibold text-[#1F2937]">Serviços</h2>
+                <p className="mt-2 text-[#374151]">
                     Acolhimento psicológico com ética, empatia e cuidado com sua história.
                 </p>
 
-                <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <div className="mt-10 grid gap-6 grid-cols-2 lg:grid-cols-4">
                     {services.map((serv) => (
                         <div
                             key={serv.title}
-                            className="flex flex-col text-center items-center p-6 border border-neutral-200 rounded-xl bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                            className="flex flex-col text-center items-center p-6 rounded-xl bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 border border-[#E8E6E3]"
                         >
                             <Image
                                 src={serv.img}
@@ -52,8 +52,8 @@ export default function Services() {
                                 className="object-contain rounded-md"
                                 priority={false}
                             />
-                            <h3 className="text-lg font-medium text-neutral-900">{serv.title}</h3>
-                            <p className="mt-2 text-sm text-neutral-600 leading-relaxed">{serv.desc}</p>
+                            <h3 className="text-lg font-medium text-[#1F2937]">{serv.title}</h3>
+                            <p className="mt-2 text-sm text-[#374151] leading-relaxed">{serv.desc}</p>
                         </div>
                     ))}
                 </div>

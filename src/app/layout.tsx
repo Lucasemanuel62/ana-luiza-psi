@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   authors: [{ name: "Ana Luiza" }],
   icons: {
     // O Next usa automaticamente src/app/icon.png e apple-icon.png, mas mantemos referências com versionamento para bust de cache
-    icon: "/icon.png?v=2",
-    shortcut: "/favicon.ico?v=2",
-    apple: "/apple-icon.png?v=2",
+    icon: "/images/logo-ana-luiza1.png?v=2",
+    shortcut: "/images/logo-ana-luiza1.png?v=2",
+    apple: "/images/logo-ana-luiza1.png?v=2",
   },
   openGraph: {
     title: "Ana Luiza — Psicóloga | Gestalt-terapia Online",
