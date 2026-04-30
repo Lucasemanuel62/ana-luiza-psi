@@ -24,6 +24,10 @@ export default function Header() {
                     <a href="#contato" className="rounded-full bg-brand px-5 py-2.5 text-white shadow-sm transition-colors hover:bg-brand-600">Contato</a>
                 </nav>
 
+                <a href="#contato" className="rounded-full bg-brand px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-brand-600 md:hidden">
+                    Contato
+                </a>
+
                 {/* Botão Agendar */}
                
             </div>

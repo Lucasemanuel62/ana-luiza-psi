@@ -7,19 +7,19 @@ export default function Hero() {
                 {/* Layout Mobile: Foto ao lado do nome */}
                 <div className="md:hidden flex items-start gap-4 mb-6 px-5">
                     <div className="flex-1">
-                        <span className="inline-block rounded-full border border-brand-100 bg-paper px-3 py-1 text-sm font-medium text-brand">
+                        <span className="inline-flex min-w-32 items-center justify-center rounded-full border border-brand-100 bg-paper px-3 py-1 text-center text-sm font-medium text-brand">
                             Psicologia Clínica
                             </span>
                         <h1 className="mt-2 text-2xl font-semibold tracking-tight text-ink">
-                            Ana Luiza — Psicóloga
+                            Ana Luiza <span className="max-[399px]:hidden">—</span> Psicóloga
                         </h1>
                     </div>
-                    <div className="relative w-32 bottom-8 h-28">
+                    <div className="relative bottom-8 h-36 w-40">
                         <Image
                             src="/images/analuizadefinitivo.png"
                             alt="Ana Luiza - Psicóloga"
-                            width={120}
-                            height={120}
+                            width={160}
+                            height={160}
                             className="object-contain [mask-image:linear-gradient(to_bottom,black_86%,rgba(0,0,0,0.65)_94%,transparent_100%)] [-webkit-mask-image:linear-gradient(to_bottom,black_86%,rgba(0,0,0,0.65)_94%,transparent_100%)]"
                             priority
                         />
