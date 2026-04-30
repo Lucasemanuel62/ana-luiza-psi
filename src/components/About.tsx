@@ -2,44 +2,38 @@ import Reveal from "./Reveal";
 
 export default function About() {
     return (
-        <section id="sobre" className="bg-[#F3F1EC]">
-            <div className="mx-auto max-w-screen-xl px-6 lg:py-20 grid md:grid-cols-12 gap-8">
-                <Reveal className="md:col-span-7 lg:flex lg:flex-col lg:gap-6">
-                    <h2 className="text-4xl font-semibold text-[#1F2937]">Sobre mim</h2>
-                    <p className="mt-4 text-[#374151] leading-7">
-                        Atendo adolescentes e adultos em demandas como ansiedade, depressão, estresse, autoestima, relacionamentos
-                        e desenvolvimento pessoal. Meu trabalho é pautado na escuta empática, acolhimento e construção conjunta de
-                        estratégias para uma vida com mais sentido e equilíbrio.
+        <section id="sobre" className="bg-[linear-gradient(90deg,#6f2839_0%,#a64b5f_48%,#789688_100%)]">
+            <div className="mx-auto grid max-w-screen-xl gap-10 px-6 py-16 md:grid-cols-12 md:items-start md:py-20">
+                <Reveal className="md:col-span-7">
+                    <span className="inline-block w-fit rounded-full border border-white/25 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.08em] text-white/90">
+                        Cuidado psicológico
+                    </span>
+
+                    <h2 className="mt-5 max-w-2xl text-4xl font-semibold leading-tight text-white md:text-5xl">
+                        Escuta qualificada para atravessar o que você vive
+                    </h2>
+
+                    <p className="mt-5 max-w-2xl text-base leading-8 text-white/86">
+                        Atendo adultos em demandas como ansiedade, depressão, estresse, autoestima,
+                        relacionamentos e desenvolvimento pessoal. Meu trabalho é pautado na escuta empática,
+                        acolhimento e construção conjunta de estratégias para uma vida com mais sentido e equilíbrio.
                     </p>
-                    <p className="mt-4 text-[#1F2937] font-medium leading-7">
+
+                    <p className="mt-5 max-w-2xl text-lg font-semibold leading-8 text-white">
                         Atendimento online com Gestalt-terapia, oferecendo um espaço de reflexões e acolhimento.
                     </p>
 
-                    {/* Informações destacadas */}
-                    <div className="mt-6 p-4 bg-[#EEF6F3] rounded-lg border-l-4 border-[#3EC6C6]">
-                        <div className="flex items-center gap-2 mb-2">
-                            <span className="text-[#3EC6C6] font-medium">🔸</span>
-                            <span className="text-[#1F2937] font-semibold">Psicóloga - CRP 05/75904</span>
-                        </div>
-                        <div className="flex items-center gap-2 mb-2">
-                            <span className="text-[#3EC6C6] font-medium">🔸</span>
-                            <span className="text-[#1F2937] font-semibold">Atendimento online / Gestalt-terapia</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                            <span className="text-[#3EC6C6] font-medium">🔸</span>
-                            <span className="text-[#1F2937] font-semibold">Um espaço de reflexões e acolhimento</span>
-                        </div>
-                    </div>
                 </Reveal>
-                <div className="md:col-span-5">
+
+                <div className="md:col-span-5 md:pt-12">
                     <Reveal>
-                        <div className="rounded-xl border border-[#E8E6E3] bg-white p-5 shadow-sm">
-                            <h3 className="font-medium text-[#1F2937]">Informações</h3>
-                            <ul className="mt-3 space-y-2 text-[#374151]">
-                                <li>CRP: 05/75904</li>
-                                <li>Abordagem: Gestalt-terapia</li>
-                                <li>Modalidade: Online</li>
-                                <li>Especialidade: Acolhimento e reflexões</li>
+                        <div className="rounded-xl border border-white/25 bg-paper/95 p-6 shadow-[0_20px_55px_rgba(48,37,38,0.18)]">
+                            <h3 className="text-lg font-semibold text-ink">Informações</h3>
+                            <ul className="mt-4 space-y-3 text-sm leading-6 text-muted md:text-base">
+                                <li><span className="font-semibold text-ink">CRP:</span> 05/75904</li>
+                                <li><span className="font-semibold text-ink">Abordagem:</span> Gestalt-terapia</li>
+                                <li><span className="font-semibold text-ink">Modalidade:</span> Online</li>
+                                <li><span className="font-semibold text-ink">Especialidade:</span> Acolhimento e reflexões</li>
                             </ul>
                         </div>
                     </Reveal>

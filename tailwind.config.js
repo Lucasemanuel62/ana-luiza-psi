@@ -9,15 +9,29 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          DEFAULT: '#3EC6C6',
-          50: '#EEF6F3',
-          100: '#F3F1EC',
-          200: '#DFF6F5',
-          300: '#BEEFEF',
-          400: '#7FE2E0'
+          DEFAULT: '#A64B5F',
+          50: '#F3DCE2',
+          100: '#E7C0CA',
+          200: '#D89AAA',
+          500: '#A64B5F',
+          600: '#8E374A',
+          700: '#6F2839'
         },
-        'text-dark': '#1F2937',
-        'muted-gray': '#374151'
+        sage: {
+          DEFAULT: '#789688',
+          50: '#D8E2D7',
+          100: '#C2D2C6',
+          600: '#5D7C6D'
+        },
+        ivory: '#EFE3DC',
+        shell: '#E5D5CC',
+        paper: '#FBF3EE',
+        mist: '#D8E2D7',
+        line: '#D5C2B8',
+        ink: '#302526',
+        muted: '#6F5E5D',
+        'text-dark': '#302526',
+        'muted-gray': '#6F5E5D'
       }
     }
   },
